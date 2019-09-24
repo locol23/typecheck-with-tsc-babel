@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": false,
+    "removeComments": true,
+    "strict": true,
+    "lib": ["dom", "es2016"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist"]
+}
